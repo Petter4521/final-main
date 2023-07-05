@@ -1,0 +1,288 @@
+/* Estilos para el encabezado */
+header {
+    background-color: #292b2c;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+.contenidoprincipal{
+    width: auto;
+    margin: 20px auto;
+    border: 1px solid;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns:  2fr 1fr;
+    grid-template-areas: 
+      "nav section aside";
+    gap: 15px;
+    padding: 20px;
+  }
+  .grid-container section{
+    grid-area: section;
+    background-color:#3c3e40;
+    padding: 20px;
+    padding: 20px;
+    color:#adb0b3;
+
+  }
+  
+  nav {
+    grid-area: nav;
+    background-color: #535658;
+    padding: 10px;
+  }
+  /* barra de tareas */
+.menu{
+  list-style: none;
+  padding: 0px;
+  background: #5B4F47;
+  width: 100%;
+  max-width: 2000px;
+  margin: 0px ;
+}
+.menu li a{
+  text-decoration: none;
+  color: white;
+  padding: 30px;
+  display: block;
+  font-size: 30px;
+  left: 300px;
+  position: relative;
+}
+.menu li{
+  display: inline-block;
+  text-align: center;
+}
+.menu li a:hover{
+  background: #ef8354;
+}
+
+  /* /* .cursor-mouse {
+    width: 200px;
+    height: 200px;
+    background-color: #000000;
+  }
+  
+  .cursor-mouse:hover {
+    background-color: #ff0000;
+    box-shadow: 0 0 10px 5px #ff0000;
+   } */
+  
+   
+  /* nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+  }
+  .nav-lista{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-lista ul {
+    list-style-type: none; /* Elimina los marcadores de la lista 
+   padding: 0;
+    margin: 0;
+  }
+  
+  .nav-lista li {
+    margin-left: 20px; /* Ajusta el margen izquierdo para alinear la lista */
+    /* } */  */ */
+   
+ section {
+    grid-area: section;
+    background-color:#3c3e40;
+    padding: 20px;
+    padding: 20px;
+    color:#adb0b3;
+   
+  
+  }
+.intorduccion{
+    font-size: 500%;
+
+}
+ 
+     
+  .grid-layout{
+    display: grid ;
+    grid-template-columns: 300px 300px 300px  ;
+    grid-template-rows: 200px 200px 200px 200px 200px 200px 200px ;  
+    margin: 0 auto;
+    padding: 20px;
+    gap: 10px;
+    color: #8e9193;
+
+}
+.caja-1{
+    border: 1.5px solid black;
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px;
+    padding-top: 10%;
+    
+    grid-row: 1 / 2;
+    grid-column: 1/3;
+}
+.caja-2{
+    border: 1.5px solid black;
+    grid-column: 3/ 4;
+    grid-row: 1 / 2;
+}
+  
+.caja-3{
+    border: 1.5px solid black;
+    grid-column: 1 / 2;
+    grid-row: 2/ 3;
+  }
+.caja-4{
+    border: 1.5px solid black;
+    background-color:  #f1f1f1;
+    text-align: center;
+    grid-row: 2/ 3;
+    grid-column: 2 / 4;
+    padding: 10px;
+    padding-top: 10%;
+}
+    
+.caja-5{
+    border: 1.5px solid black;
+    background-color:  #f1f1f1;
+    grid-row: 3/4;
+    grid-column: 3/4 ; 
+}
+.caja-6{
+    border: 1.5px solid black;
+    background-color:  #f1f1f1;
+    text-align: center;
+    grid-row: 3/ 4;
+    grid-column: 1/3;
+    padding: 10px;
+    padding-top: 10%;
+}
+.caja-7{
+    border: 1.5px solid black;
+    background-color:  #f1f1f1;
+    grid-row: 4/5;
+    grid-column: 1/2;
+
+    
+}
+.caja-8{
+    border: 1.5px solid black;
+    background-color:  #f1f1f1;
+    text-align: center;
+    grid-row: 4/ 5;
+    grid-column: 2/4;
+    padding: 10px;
+    padding-top: 10%;
+}
+.caja-9{
+    border: 1.5px solid black;
+    background-color:  #f1f1f1;
+    grid-row: 5/6;
+    grid-column: 3/4;  
+}
+.caja-10{
+    border: 1.5px solid black;
+    background-color:  #f1f1f1;
+    text-align: center;
+    grid-row: 5/ 6;
+    grid-column: 1/3;
+    padding: 10px;
+    padding-top: 10%;
+}
+.caja-11{
+    border: 1.5px solid black;
+    background-color:  #181414;
+    grid-row: 6/7;
+    grid-column: 1/2;  
+}
+.caja-12{
+    border: 1.5px solid black;
+    background-color:  #f1f1f1;
+    text-align: center;
+    grid-row: 6/ 7;
+    grid-column: 2/4;
+    padding: 10px;
+    padding-top: 10%;
+}
+.caja-13{
+    border: 1.5px solid black;
+    background-color:  #f1f1f1;
+    grid-row: 7/8 ;
+    grid-column: 3/4;
+}
+.caja-14{
+    border: 1.5px solid black;
+    background-color:  #f1f1f1;
+    text-align: center;
+    grid-row: 7/ 8;
+    grid-column: 1/3;
+    padding: 10px;
+    padding-top: 10%;
+}
+
+
+/* Ajuste de las cajas en modo móvil */
+@media (max-width: 767px) {
+  .grid-layout {
+    justify-content: flex-start;
+  }
+
+  .grid-layout > div {
+    width: 100%;
+    margin-bottom: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+  
+  aside {
+    grid-area: aside;
+    background-color: #f1f1f1;
+    padding: 10px;
+    padding-block: 20px;
+  }
+  
+  /* Estilos para el pie de página */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+
+  /* estilos para dispositivos de escritorio */
+@media (min-width: 768px) {
+
+  body {
+    font-size: 16px;
+    color: #333;
+  }
+}
+
+/* estilos para dispositivos móviles */
+@media (max-width: 767px) {
+
+  
+  body {
+    font-size: 14px;
+    color: #888;
+  }
+}
